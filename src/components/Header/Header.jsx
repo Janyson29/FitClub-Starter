@@ -3,6 +3,7 @@ import './Header.css'
 import Logo from '../../assets/logo.png'
 import Bars from '../../assets/bars.png'
 import { useState } from 'react'
+import { Link } from 'react-scroll'
 
 const Header = () => {
   const mobile = window.innerWidth<= 768 ? true: false;
@@ -25,11 +26,17 @@ const Header = () => {
         </div>
       ) : (
         <ul className='header-menu'>
-          <li onClick={()=> setMenuOpened(false)}>Home</li>
+          <li onClick={()=> setMenuOpened(false)}>
+            <link>Home</link>
+          </li>
           <li onClick={()=> setMenuOpened(false)}>Programas</li>
           <li onClick={()=> setMenuOpened(false)}>Por que nós</li>
           <li onClick={()=> setMenuOpened(false)}>Planos</li>
-          <li onClick={()=> setMenuOpened(false)}>Testemunhos</li>
+          <li onClick={()=> setMenuOpened(false)}>
+            <link
+            
+            >Testemunhos</link>
+          </li>
         </ul>
       )}
     </div>
