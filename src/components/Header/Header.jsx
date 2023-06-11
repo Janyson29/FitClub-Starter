@@ -26,16 +26,41 @@ const Header = () => {
         </div>
       ) : (
         <ul className='header-menu'>
-          <li onClick={()=> setMenuOpened(false)}>
-            <link>Home</link>
+          <li>
+            <Link
+            onClick={()=> setMenuOpened(false)}
+            activeClass='active'
+            to='home'
+            span={true}
+            smooth={true}
+            >Home</Link>
           </li>
-          <li onClick={()=> setMenuOpened(false)}>Programas</li>
-          <li onClick={()=> setMenuOpened(false)}>Por que nós</li>
-          <li onClick={()=> setMenuOpened(false)}>Planos</li>
-          <li onClick={()=> setMenuOpened(false)}>
-            <link
-            
-            >Testemunhos</link>
+          <li> <Link
+          onClick={()=> setMenuOpened(false)}
+          to='programs'
+          span={true}
+          smooth={true}
+          >Programas</Link></li>
+          <li> <Link
+          onClick={()=> setMenuOpened(false)}
+          to='reasons'
+          span={true}
+          smooth={true}
+          >Por que nós</Link></li>
+          <li> <Link
+          onClick={()=> setMenuOpened(false)}
+          to='plans'
+          span={true}
+          smooth={true}
+          >Planos</Link></li>
+          <li >
+            <Link
+            onClick={()=> setMenuOpened(false)}
+            to='testimonials'
+            span={true}
+            smooth={true}
+            >Testimonials
+            </Link>
           </li>
         </ul>
       )}
