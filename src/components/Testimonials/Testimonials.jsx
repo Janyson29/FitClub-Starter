@@ -14,7 +14,7 @@ const Testimonials = () => {
 
 
   return (
-    <div className="Testimonials">
+    <div className="testimonials">
       <div className="left-t">
         <span>TESTIMONIALS</span>
         <span className='stroke-text'>WHAT THEY</span>
