@@ -45,30 +45,30 @@ const Hero = () => {
             <span>
               <NumberCounter end={140} start={100} delay= '4' preFix='+'/>
             </span>
-            <span>EXPERT COACHES</span>
+            <span>TREINADORES ESPECIALIZADOS</span>
           </div>
           <div>
             <span>
             <NumberCounter end={978} start={800} delay= '4' preFix='+'/>
             </span>
-            <span>MEMBERS JOINED</span>
+            <span>MEMBROS</span>
           </div>
           <div>
             <span>
             <NumberCounter end={50} start={30} delay= '4' preFix='+'/>
             </span>
-            <span>FITNESS PROGRAMS</span>
+            <span>PROGRAMAS DE FITNESS</span>
           </div>
         </div>
 
         {/* hero buttons */}
         <div className="hero-buttons">
-          <buttons className="btn">Get Started</buttons>
-          <buttons className="btn">Learn More</buttons>
+          <buttons className="btn">Iniciar</buttons>
+          <buttons className="btn">Saber mais</buttons>
         </div>
       </div>
       <div className="right-h">
-        <button className='btn'>Join Now</button>
+        <button className='btn'>Entrar</button>
 
         <motion.div
         initial={{right: '-1rem'}}
@@ -76,7 +76,7 @@ const Hero = () => {
         transition={transition}
          className="heart-rate">
           <img src={Heart} alt="" />
-          <span>Heart Rate</span><span>116 bpm</span>
+          <span>Frequência cardíaca</span><span>116 bpm</span>
         </motion.div>
 
         {/* hero images */}
@@ -95,7 +95,7 @@ const Hero = () => {
          className="calories">
           <img src={Calories} alt=""/>
           <div>
-            <span>Calories Burned</span>
+            <span>Calorias queimadas</span>
             <span>220 kcal</span>
           </div>
         </motion.div>

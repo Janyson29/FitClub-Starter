@@ -59,7 +59,7 @@ const Header = () => {
             to='testimonials'
             span={true}
             smooth={true}
-            >Testimonials
+            >Testemunhos
             </Link>
           </li>
         </ul>

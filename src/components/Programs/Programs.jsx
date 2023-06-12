@@ -8,9 +8,9 @@ const Programs = () => {
     <div className="Programs" id="programs">
       {/* header */}
       <div className="programs-header">
-        <span className='stroke-text'>EXPLORE OUR</span>
-        <span>PROGRAMS</span>
-        <span className='stroke-text'>TO SHAPE YOU</span>
+        <span className='stroke-text'>EXPLORE NOSSO</span>
+        <span>PROGRAMAS</span>
+        <span className='stroke-text'>PARA MOLDAR VOCÊ</span>
       </div>
       
       <div className="programs-categories">
@@ -20,7 +20,7 @@ const Programs = () => {
             <span>{program.heading}</span>
             <span>{program.details}</span>
             <div className="join-now">
-              <span>Join Now</span>
+              <span>Entrar</span>
               <img src={RightArrow} alt="" />
             </div>
           </div>
